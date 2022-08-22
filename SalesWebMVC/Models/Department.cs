@@ -15,5 +15,9 @@ namespace SalesWebMVC.Models
             ID = iD;
             Name = name;
         }
+        public Department()
+        {
+           
+        }
     }
 }

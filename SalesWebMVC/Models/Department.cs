@@ -15,9 +15,9 @@ namespace SalesWebMVC.Models
            
         }
 
-        public Department(int iD, string name)
+        public Department(int id, string name)
         {
-            ID = iD;
+            ID = id;
             Name = name;
         }
         public void AddSeller(Seller seller)

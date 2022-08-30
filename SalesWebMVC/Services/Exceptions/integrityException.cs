@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace SalesWebMVC.Services.Exceptions
 {
-    public class integrityException : ApplicationException
+    public class IntegrityException : ApplicationException
     {
-        public integrityException(string message) : base(message)
+        public IntegrityException(string message) : base(message)
         {
 
         }

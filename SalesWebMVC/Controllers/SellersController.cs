@@ -10,7 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-namespace SalesWebMvc.Controllers
+namespace SalesWebMVC.Controllers
 {
     public class SellersController : Controller
     {
@@ -71,7 +71,7 @@ namespace SalesWebMvc.Controllers
             try { 
             await _sellerService.RemoveAsync(id);
             return RedirectToAction(nameof(Index));
-            }catch(integrityException e)
+            }catch(IntegrityException e)
             {
                return RedirectToAction(nameof(Error), new { message = e.Message });
             }
